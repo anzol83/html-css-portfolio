@@ -36,7 +36,7 @@ a{
 
 .logo-name{
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 1rem;
     text-transform: uppercase;
 }
 
@@ -127,9 +127,48 @@ a{
     /* #hamburger-menu:not(:checked) + .side-menu{
         display: none;
     } */
+}
 
+/* Hero Section  */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
 
+.hero-section{
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    max-height: 60vh;
+    margin: 4rem 0;
 
 }
 
+.intro-text{
+    color: white;
+    padding: 8px;
+}
+
+.download-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 12px;
+    margin-top: 2rem;
+}
+
+.download-btn:hover{
+    cursor: pointer;
+}
+
+.profile-image{
+    margin: -3rem;
+}
+
+.profile-image img{
+    height: 100%;
+    width: 80%;
+}
 
