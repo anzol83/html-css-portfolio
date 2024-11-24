@@ -1,0 +1,62 @@
+:root{
+    /* Light mode colors  */
+    --bg-color: #bde7fd;
+    --primary-color:#ff4600;
+    --text-color: solid black;
+    --border-color: solid black;
+    --box-shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.625);
+
+}
+
+body{
+    margin: 0;
+    background-color: var(--bg-color);
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+/* NavBar */
+.navbar-container{
+    justify-content: space-between;
+    padding: 16px 32px;
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+}
+
+.logo-name{
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.line{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* nav ul li{
+    list-style: none;
+}  */
+
+/* Nav Items  */
+.nav-items{
+    list-style: none;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.nav-items a:hover {
+    color:var(--primary-color);
+}
+
