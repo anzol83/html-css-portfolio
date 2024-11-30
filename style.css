@@ -6,7 +6,13 @@
     --border-color: black;
     --box-shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.625);
 
+    /* Dark Mode Color */
+    --dark-bg-color: Black;
+    --dark-text-color: White;
+    --dark-border-color: white;
 }
+
+
 
 body{
     margin: 0;
@@ -226,7 +232,7 @@ body{
 .project-card{
     width: 200px;
     height: 250px;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 12px;
     box-shadow: var(--box-shadow);
 }
@@ -288,6 +294,7 @@ body{
 
   .get-in-touch-container{
     justify-content: space-evenly;
+
   }
 
   .mail-container{
@@ -312,7 +319,6 @@ body{
   .footer-conatiner{
     color: white;
     align-items: start;
-    margin-top: 12px;
     gap: 2rem;
   }
 
@@ -350,3 +356,33 @@ body{
     text-decoration: none;
     color: white;
   }
+
+  /* Dark Mode  */
+  #dark-mode{
+    display: none;
+  }
+
+  .dark-mode-toggle{
+    position: fixed;
+    top: 7rem;
+    left: 8px;
+    cursor: pointer;
+  }
+
+  .dark-mode-toggle i:hover{
+    scale:2;
+  }
+
+  .wrapper-container{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+
+  #dark-mode:checked ~ .wrapper-container {
+    --bg-color: var(--dark-bg-color);
+    --text-color: var(--dark-text-color);
+    --border-color:var(----border-color);
+  }
+
+
+
