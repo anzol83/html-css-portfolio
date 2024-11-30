@@ -22,10 +22,6 @@ body{
     flex-wrap: wrap;
 }
 
-a{
-
-}
-
 /* NavBar */
 .navbar-container{
     justify-content: space-between;
@@ -51,10 +47,9 @@ a{
     list-style: none;
 
 
-@media (max-width:760px) {
-    display: none;
-}
-
+    @media (max-width:760px) {
+        display: none;
+    }
 }
 
 .nav-items a{
@@ -333,5 +328,25 @@ a{
   }
 
   .copy-right-text{
+    color: white;
+  }
+
+  /* Go to top section  */
+
+  .go-to-top {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: block important!;
+  }
+
+  .go-to-top a{
+    text-decoration: none;
     color: white;
   }
