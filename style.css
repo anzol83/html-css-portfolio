@@ -2,8 +2,8 @@
     /* Light mode colors  */
     --bg-color: #bde7fd;
     --primary-color:#ff4600;
-    --text-color: solid black;
-    --border-color: solid black;
+    --text-color: black;
+    --border-color: black;
     --box-shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.625);
 
 }
@@ -271,9 +271,9 @@ a{
     background-color: coral;
     padding: 2rem;
   }
-  .about-container {
+  /* .about-container {
     flex: 1;
-  }
+  } */
   .about-image {
     width: 15rem;
     height: 20rem;
@@ -306,4 +306,32 @@ a{
 
   .mail-container i{
     color: var(--primary-color);
+  }
+
+  /* Footer Section  */
+
+  footer{
+    background-color: var(--text-color);
+  }
+
+  .footer-conatiner{
+    color: white;
+    align-items: start;
+    margin-top: 12px;
+    gap: 2rem;
+  }
+
+  .footer-conatiner ul{
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer-conatiner li a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+  }
+
+  .copy-right-text{
+    color: white;
   }
