@@ -288,3 +288,22 @@ a{
     flex: 2;
     line-height: 2rem;
   }
+
+  /* Get In Touch Section  */
+
+  .get-in-touch-container{
+    justify-content: space-evenly;
+  }
+
+  .mail-container{
+    text-align: center;
+    padding: 12px;
+  }
+
+  .mail-conatiner button{
+    padding: 16px;
+  }
+
+  .mail-container i{
+    color: var(--primary-color);
+  }
